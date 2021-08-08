@@ -1,5 +1,7 @@
-﻿h1 {
-color:#FFCC00;
+﻿/* 紺碧 #007bbb*/
+/* 向日葵色 #fcc800*/
+h1 {
+color:#fcc800;
 font-size:190%;
 }
 
@@ -37,7 +39,7 @@ border-radius:20px;
 }
 
 header {
-border-top:solid 20px #34344e;
+border-top:solid 20px #007bbb;
 }
 
 .now {
