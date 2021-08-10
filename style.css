@@ -1,20 +1,43 @@
 ﻿/* 紺碧 #007bbb*/
 /* 向日葵色 #fcc800*/
+/* 生成り色 #fbfaf5*/
+
+h1,h2,footer,img,header,body {
+text-align:center;
+font-family: "Sawarabi Mincho";
+}
+
 h1 {
 color:#fcc800;
 font-size:190%;
 }
 
 body {
-background:#FFFFCC;
+background:#fbfaf5;
+}
+header {
+border-top:solid 20px #007bbb;
+margin : 0 auto;
+}
+
+.header {
+width:1080px;
+border-radius:1px;
+margin : 0 auto;
 }
 
 div {
-width:640px;
+width:1080px;
 margin-right:auto;
 margin-left:auto;
 border : solid 0px;
 }
+
+
+
+/*img {
+width:1080px;
+}*/
 
 .txt {
 display: inline-block;
@@ -22,13 +45,10 @@ text-align: left;
 color: #443532;
 }
 
-h1,h2,footer,img,header,body {
-text-align:center;
-font-family: "Sawarabi Mincho";
-}
-
 li {
+
 list-style:none;
+padding-left: initial;
 width:25%;
 float:left;
 border-bottom:solid 20px #007bbb;
@@ -36,10 +56,6 @@ border-bottom:solid 20px #007bbb;
 
 p img {
 border-radius:20px;
-}
-
-header {
-border-top:solid 20px #007bbb;
 }
 
 .now {
@@ -63,4 +79,4 @@ margin-right:auto;
 margin-left:auto;
 
 }
-
+*/
