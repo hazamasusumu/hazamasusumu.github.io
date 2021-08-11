@@ -16,10 +16,14 @@ body {
 background:#fbfaf5;
 }
 header {
-border-top:solid 20px #007bbb;
-margin : 0 auto;
+/*border-top:solid 20px #007bbb;*/
+/*margin : 0 auto;*/
 }
 
+.logo {
+float: left;
+width:100px;
+}
 .header {
 width:1080px;
 border-radius:1px;
@@ -51,7 +55,7 @@ list-style:none;
 padding-left: initial;
 width:25%;
 float:left;
-border-bottom:solid 20px #007bbb;
+/*border-bottom:solid 20px #007bbb;*/
 }
 
 p img {
