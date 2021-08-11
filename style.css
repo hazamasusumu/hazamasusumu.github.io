@@ -2,9 +2,30 @@
 /* 向日葵色 #fcc800*/
 /* 生成り色 #fbfaf5*/
 
-h1,h2,footer,img,header,body {
+h1{
+ border: solid;
+}
+footer{
+ border: solid;
+}
+img{
+ border: solid;
+}
+header{
+ border: solid;
+}
+body1{
+ border: solid;
+}
+h1{
+ border: solid;
+}
+
+
+h1,,footer,img,header,body {
 text-align:center;
 font-family: "Sawarabi Mincho";
+
 }
 
 h1 {
@@ -23,7 +44,10 @@ header {
 .logo {
 float: left;
 width:100px;
+
+border-radius:0px;
 }
+
 .header {
 width:1080px;
 border-radius:1px;
@@ -50,7 +74,7 @@ color: #443532;
 }
 
 li {
-
+ border: solid;
 list-style:none;
 padding-left: initial;
 width:25%;
