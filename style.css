@@ -1,35 +1,26 @@
 ﻿/* 紺碧 #007bbb*/
 /* 向日葵色 #fcc800*/
+/* 蜜柑色 #f08300*/
 /* 生成り色 #fbfaf5*/
 /* 瑠璃色 #1e50a2*/
 h1{
  border: solid;
- color:#fcc800;
+ color:#f08300;
  font-size:300%;
  letter-spacing: 20px;
 }
-footer{
- border: solid;
-}
-img{
- border: solid;
-}
-header{
- border: solid;
-}
-body1{
- border: solid;
-}
-h1{
- border: solid;
+
+*{
+
+border: solid;
 }
 
 
-h1,,footer,img,header,body {
+h1,,footer,img,header,body,table, {
 text-align:center;
 font-family: "Sawarabi Mincho";
-
 }
+
 
 h1 {
 
