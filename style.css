@@ -67,6 +67,10 @@ border : solid 0px;
 width:1080px;
 }*/
 
+li{
+text-align: center;
+
+}
 .txt {
 display: inline-block;
 text-align: left;
