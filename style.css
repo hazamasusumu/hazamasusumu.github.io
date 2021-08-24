@@ -1,9 +1,12 @@
 ﻿/* 紺碧 #007bbb*/
 /* 向日葵色 #fcc800*/
 /* 生成り色 #fbfaf5*/
-
+/* 瑠璃色 #1e50a2*/
 h1{
  border: solid;
+ color:#fcc800;
+ font-size:300%;
+ letter-spacing: 20px;
 }
 footer{
  border: solid;
@@ -29,12 +32,11 @@ font-family: "Sawarabi Mincho";
 }
 
 h1 {
-color:#fcc800;
-font-size:190%;
+
 }
 
 body {
-background:#fbfaf5;
+background:#1e50a2;
 }
 header {
 /*border-top:solid 20px #007bbb;*/
@@ -46,6 +48,11 @@ float: left;
 width:100px;
 
 border-radius:0px;
+}
+
+.socialmedialogo {
+width:50px;
+padding:0px 20px 0px 20px;
 }
 
 .header {
