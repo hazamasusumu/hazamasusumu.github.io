@@ -3,53 +3,91 @@
 /* 蜜柑色 #f08300*/
 /* 生成り色 #fbfaf5*/
 /* 瑠璃色 #1e50a2*/
-h1{
- border: solid;
- color:#f08300;
- font-size:300%;
- letter-spacing: 20px;
-}
 
 *{
-
+/*
 border: solid;
+*/
+color:#FFFFFF;
 }
 
 
-h1,,footer,img,header,body,table, {
+body {
+background:#1e50a2;
+width:1080px;
+margin-right:auto;
+margin-left:auto;
+}
+
+h1,h2,footer,img,header,body,table, {
 text-align:center;
 font-family: "Sawarabi Mincho";
 }
 
-
-h1 {
-
+h1{
+ color:#fcc800;
+ font-size:300%;
+ letter-spacing: 20px;
 }
 
-body {
-background:#1e50a2;
+h2 {
+text-align: center;
+font-size:30px;
 }
+
+
+
 header {
+z-index: 99;
 /*border-top:solid 20px #007bbb;*/
 /*margin : 0 auto;*/
+}
+
+ul{
+margin:0px;
+padding:0px;
+padding-inline-start: 0px;
+margin-block-start: 0em;
+margin-block-end: 0em;
 }
 
 .logo {
 float: left;
 width:100px;
+}
 
-border-radius:0px;
+.top {
+background:#007bbb;
+margin-bottom:50px;
+}
+
+.works {
+width:100px;
+}
+
+.toplogo{
+padding:0px 50px 0px 50px;
+}
+.socialmedialogonote {
+width:70px;
 }
 
 .socialmedialogo {
 width:50px;
-padding:0px 20px 0px 20px;
+padding:10px
 }
 
 .header {
 width:1080px;
 border-radius:1px;
-margin : 0 auto;
+}
+
+p {
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
 }
 
 div {
@@ -59,38 +97,41 @@ margin-left:auto;
 border : solid 0px;
 }
 
-
-
 /*img {
 width:1080px;
 }*/
 
-li{
-text-align: center;
-
 }
 .txt {
-display: inline-block;
 text-align: left;
-color: #443532;
+color: #FFFFFF;
 }
 
 li {
- border: solid;
+text-align: center;
 list-style:none;
-padding-left: initial;
-width:25%;
+width:15%;
 float:left;
+background-color:#007bbb;
 /*border-bottom:solid 20px #007bbb;*/
+font-size:30px
+}
+
+ul {
+padding-left: 0px;
+}
+
+.now {
+background-color:#fcc800;
 }
 
 p img {
 border-radius:20px;
 }
 
-.now {
-background-color:#FFCC00;
-}
+.end {
+text-align: center;
+｝
 
 
 textarea {
