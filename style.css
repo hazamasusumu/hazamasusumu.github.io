@@ -10,24 +10,26 @@ border: solid;
 */
 color:#FFFFFF;
 }
-
+html {
+font-family: 'M PLUS Rounded 1c', sans-serif;
+}
 
 body {
 background:#1e50a2;
 width:1080px;
 margin-right:auto;
 margin-left:auto;
+margin-top:0px;
 }
 
 h1,h2,footer,img,header,body,table, {
 text-align:center;
-font-family: "Sawarabi Mincho";
 }
 
 h1{
- color:#fcc800;
- font-size:300%;
- letter-spacing: 20px;
+ /*color:#fcc800;*/
+font-size:300%;
+letter-spacing: 20px;
 }
 
 h2 {
@@ -147,7 +149,7 @@ resize: vertical;
 }
 table {
 margin-right:auto;
-margin-left:auto;
+margin-left:5%;
 
 }
 */
