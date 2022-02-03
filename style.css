@@ -15,29 +15,29 @@ font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 body {
-background:#1e50a2;
-width:1080px;
-margin-right:auto;
-margin-left:auto;
-margin-top:0px;
-}
+ background:#1e50a2;
+ width:1080px;
+ margin-right:auto;
+ margin-left:auto;
+ margin-top:0px;
+ }
 
 h1,h2,footer,img,header,body,table, {
-text-align:center;
-}
+ text-align:center;
+ }
 
 h1{
  /*color:#fcc800;*/
-font-size:300%;
-letter-spacing: 20px;
-text-decoration: none;
-}
+ font-size:300%;
+ letter-spacing: 20px;
+ text-decoration: none;
+ }
 
 h2 {
-text-align: center;
-font-size:30px;
-padding-top:100px
-}
+ text-align: center;
+ font-size:30px;
+ padding-top:100px
+ }
 
 
 
@@ -48,12 +48,12 @@ z-index: 99;
 }
 
 ul{
-margin:0px;
-padding:0px;
-padding-inline-start: 0px;
-margin-block-start: 0em;
-margin-block-end: 0em;
-}
+ margin:0px;
+ padding:0px;
+ padding-inline-start: 0px;
+ margin-block-start: 0em;
+ margin-block-end: 0em;
+ }
 
 table {
 margin-right:auto;
@@ -75,61 +75,60 @@ width:300px;
 }
 
 .link {
-width:300px;
-}
+ width:300px;
+ }
 
 .toplogo{
-padding:0px 50px 0px 50px;
-}
+ padding:0px 50px 0px 50px;
+ }
 .socialmedialogonote {
 width:90px;
 }
 
 .socialmedialogo {
-width:50px;
-padding:20px
-}
+ width:50px;
+ padding:20px
+ }
 
 .header {
-width:1080px;
-border-radius:1px;
-}
+ width:1080px;
+ border-radius:1px;
+ }
 
 p {
-text-align: center;
-display: block;
-margin-block-start: 1em;
-margin-block-end: 1em;
-margin-inline-start: 0px;
-margin-inline-end: 0px;
-}
+ text-align: center;
+ display: block;
+ margin-block-start: 1em;
+ margin-block-end: 1em;
+ margin-inline-start: 0px;
+ margin-inline-end: 0px;
+ }
 
 div {
-width:1080px;
-margin-right:auto;
-margin-left:auto;
-border : solid 0px;
-}
+ width:1080px;
+ margin-right:auto;
+ margin-left:auto;
+ border : solid 0px;
+ }
 
 /*img {
 width:1080px;
 }*/
 
-}
 .txt {
-text-align: left;
-color: #FFFFFF;
-}
+ text-align: left;
+ color: #FFFFFF;
+ }
 
 li {
-text-align: center;
-list-style:none;
-width:15%;
-float:left;
-background-color:#007bbb;
-/*border-bottom:solid 20px #007bbb;*/
-font-size:30px
-}
+ text-align: center;
+ list-style:none;
+ width:15%;
+ float:left;
+ background-color:#007bbb;
+ /*border-bottom:solid 20px #007bbb;*/
+ font-size:30px
+ }
 
 ul {
 padding-left: 0px;
