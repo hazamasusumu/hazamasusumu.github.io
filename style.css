@@ -22,7 +22,7 @@ body {
  margin-top:0px;
  }
 
-h1,h2,footer,img,header,body,table, {
+h1,h2,footer,img,header,body,table{
  text-align:center;
  }
 
@@ -144,7 +144,7 @@ border-radius:20px;
 
 .end {
 text-align: center;
-｝
+}
 
 
 textarea {
@@ -157,8 +157,3 @@ resize: vertical;
  width:400px;
 }
 
-
-
-
-
-*/
