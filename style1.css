@@ -1,0 +1,326 @@
+
+body{
+	color :#1e6262;
+}
+
+a{
+	color :#1e6262;
+	font-family: 'Murecho', sans-serif;
+}
+
+.bottom a{
+	color :#b4f1f1
+}
+
+
+.whole {
+	height: 2000px;
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.top {
+	background-color: #2d767f;
+	height: 200px;
+	width: 1000px;
+	background-image: url(images/chiba_zantai-1.png);
+	background-repeat: no-repeat;
+	background-position: 80%;
+	background-size: 15% auto;
+	clear: right;
+	float: none;
+	color: #FFF;
+	font-family: 'Train One', cursive;
+	margin: auto;
+	text-align: center;
+	vertical-align: text-bottom;
+	
+	right: auto;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.top a{
+	text-decoration: none;
+	font-size: 100px;
+	color: #ecfffb;
+
+}
+
+.detail{
+
+	font-size: 25px;
+	line-height: 50px;
+	padding: 20px;
+	border: #2d767f;
+	border: solid;
+}
+.honbun{
+	border: #1e6262;
+}
+.left {
+	/* background-color: #2c93bb; */
+	float: left;
+	height: 1600px;
+	width: 150px;
+	font-size: 20px;
+}
+
+.left table {
+	/* background-color: #237494; */
+	width: 100%;
+	padding: 5px;
+}
+.left td{
+	background-color: #b4f1f1;
+	text-align: center;
+	padding: 10px;
+}
+
+
+.center {
+	/* background-color: #34AADB; */
+	height: 1600px;
+	width: 700px;
+	float: left;
+	/* display: flex; */
+	/* justify-content: center; */
+	/* align-items: center; */
+	
+}
+
+.center table{
+	width: 100%;
+}
+.table th{
+	border-color: #1e6262;
+	border-width: 1px;
+}
+.map{
+	background-image: url(images/chiba_zantai-1.png);
+	background-repeat: no-repeat;
+	background-position: 95% 10%;
+	background-size: 60% auto;
+}
+
+.map iframe{
+	width :100%;
+}
+
+span{
+	font-size: 18px;
+}
+
+.map td{
+	background-color: #b4f1f1;
+	text-align: center;
+	padding: 10px;
+}
+.right {
+	/* background-color: #2c93bb; */
+	float: right;
+	height: 1600px;
+	width: 150px;
+}
+
+.bottom {
+	background-color: #1e6262;
+	height: 200px;
+	width: 1000px;
+	clear: right;
+	float: none;
+	color: #b4f1f1;
+	margin: auto;
+	text-align: center;
+	vertical-align: text-bottom;
+	right: auto;
+}
+
+.bottom tr{
+	color :#b4f1f1;
+}
+.footer-pages {
+	height: 50px;
+	width: 1000px;
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+	padding-top: 20px;
+}
+
+.footer-links {
+	table-layout:fixed;
+	margin: 0px;	
+
+}
+
+
+
+.container {
+	height: 100%;
+	display:flex;
+	flex-direction: row;
+	margin: 0%;
+
+	padding: 10px;
+	flex-wrap: wrap; 
+	justify-content: flex-start;
+
+	align-content: flex-start;
+}
+
+
+.item{
+	/* 色 */
+	background-color: #b4f1f1; 
+	/* 角丸 */
+	border-radius: 5px;
+	height: 200px;
+	width: 150px;
+	margin: 10px;
+	max-width: 25%;
+	max-height: 30%;
+	justify-content: center;
+	align-items: center;
+	clear: right;
+	float: none;
+	/* margin: auto; */
+	text-align: center;
+	vertical-align: text-bottom;
+	right: auto;
+	font-size: 25px;
+	font-family: 'Murecho', sans-serif;
+}
+.item p{
+    margin: auto;
+}
+
+.item a{
+	text-decoration: none;
+	color: #2d767f;
+}
+.item img{
+	width: 100%;
+	height: 70%;
+	border-radius: 5px;
+	object-fit: cover; 
+	/* margin: 5%; */
+}
+
+.map iframe{
+	border-radius: 10px;
+}
+
+
+.guid{
+	border: 0px #808080 solid;
+}
+
+td.hatu,td.chaku{ 
+	height: 50px;
+	width: 50px;
+	font-size: 30px;
+	text-align: center;
+	color: #FFF;
+}
+td.hatu{
+	background: rgb(255, 0, 0);
+}
+
+td.place{
+	width: 200px;
+	font-size: 30px;
+}
+
+
+.placemap iframe{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+  /*** 以下モーダル用CSS ***/
+.modal{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* background-color: #f4fafd; */
+}
+.modal:not(:target) {
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.5s, visibility 0.5s;
+}
+.modal:target{
+	opacity: 1;
+	visibility: visible;
+	transition: opacity 0.5s, visibility 0.5s;
+}
+.modal .overlay{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #000;
+	opacity: 0.4;
+	top: 0;
+	left: 0;
+}
+.modal-wrapper{
+	max-width: 90%;
+	width: 800px;
+	min-width: 300px;
+	height: 100%;
+	max-height: 800px;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	background-color: #f4fafd;
+}
+.modal-contents{
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	position: relative;
+}
+.modal-content{
+	margin: 25px;
+}
+.modal-close{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	text-decoration: none;
+}
+
+.modal table{
+	width: 100%;
+}
+.modal th{
+	background-color: #cccccc;
+}
+.modal td{
+	background-color: #ececec;
+}
+.modal iframe{
+	width: 100%;
+}

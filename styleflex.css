@@ -1,0 +1,222 @@
+﻿/* 紺碧 #007bbb*/
+/* 向日葵色 #fcc800*/
+/* 蜜柑色 #f08300*/
+/* 生成り色 #fbfaf5*/
+/* 瑠璃色 #1e50a2*/
+
+*{
+/*
+border: solid;
+*/
+color:#FFFFFF;
+}
+html {
+font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+body {
+ background:#1e50a2;
+ width:1080px;
+ margin-right:auto;
+ margin-left:auto;
+ margin-top:0px;
+ }
+
+h1,h2,footer,img,header,body,table{
+ text-align:center;
+ }
+
+h1{
+ /*color:#fcc800;*/
+ font-size:300%;
+ letter-spacing: 20px;
+ text-decoration: none;
+ }
+
+h2 {
+ text-align: center;
+ font-size:30px;
+ padding-top:100px
+ }
+
+ .container {
+	height: 100%;
+	width: 100%;
+	display:flex;
+	flex-direction: row;
+	margin: 0%;
+
+	padding: 10px;
+	flex-wrap: wrap; 
+	justify-content: flex-start;
+
+	align-content: flex-start;
+}
+
+
+.item{
+	/* 色 */
+	background-color: #b4f1f1; 
+	/* 角丸 */
+	/*border-radius: 5px;*/
+
+	margin: 05px;
+	max-width: 95%;
+	height: 50%;
+	justify-content: center;
+	align-items: center;
+	clear: right;
+	float: none;
+	/* margin: auto; */
+	text-align: center;
+	vertical-align: text-bottom;
+	right: auto;
+	font-size: 25px;
+	font-family: 'Murecho', sans-serif;
+}
+
+.item img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover; 
+}
+.itembox{
+
+  background-color: #e8b4f1; 
+  height: 500px;
+	width: 250px;
+	margin: 10px;
+	max-width: 25%;
+	max-height: 30%;
+	justify-content: center;
+	align-items: center;
+	clear: right;
+	float: none;
+	/* margin: auto; */
+	text-align: center;
+	vertical-align: text-bottom;
+	right: auto;
+	font-size: 25px;
+	font-family: 'Murecho', sans-serif;
+
+}
+
+
+
+
+header {
+z-index: 99;
+/*border-top:solid 20px #007bbb;*/
+/*margin : 0 auto;*/
+}
+
+ul{
+ margin:0px;
+ padding:0px;
+ padding-inline-start: 0px;
+ margin-block-start: 0em;
+ margin-block-end: 0em;
+ }
+
+table {
+margin-right:auto;
+margin-left:auto;
+}
+
+.logo {
+float: left;
+width:100px;
+}
+
+.top {
+background:#007bbb;
+margin-bottom:50px;
+}
+
+.works {
+width:300px;
+}
+
+.link {
+ width:300px;
+ }
+
+.toplogo{
+ padding:0px 50px 0px 50px;
+ }
+.socialmedialogonote {
+width:90px;
+}
+
+.socialmedialogo {
+ width:50px;
+ padding:20px
+ }
+
+.header {
+ width:1080px;
+ border-radius:1px;
+ }
+
+p {
+ text-align: center;
+ display: block;
+ margin-block-start: 1em;
+ margin-block-end: 1em;
+ margin-inline-start: 0px;
+ margin-inline-end: 0px;
+ }
+
+div {
+ width:1080px;
+ margin-right:auto;
+ margin-left:auto;
+ border : solid 0px;
+ }
+
+/*img {
+width:1080px;
+}*/
+
+.txt {
+ text-align: left;
+ color: #FFFFFF;
+ }
+
+li {
+ text-align: center;
+ list-style:none;
+ width:15%;
+ float:left;
+ background-color:#007bbb;
+ /*border-bottom:solid 20px #007bbb;*/
+ font-size:30px
+ }
+
+ul {
+padding-left: 0px;
+}
+
+.now {
+background-color:#fcc800;
+}
+
+p img {
+border-radius:20px;
+}
+
+.end {
+text-align: center;
+}
+
+
+textarea {
+ resize: none;
+  width:400px;
+  height:200px;
+}
+input {
+resize: vertical;
+ width:400px;
+}
+
